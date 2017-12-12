@@ -41,7 +41,7 @@ li#bar01{
 
 li a#fall02,#interim02,#spring02{
 	display: block;
-	color:#48587F;
+	color:#648EB2;
 	text-align: center;
 	padding: 16px;
 	text-decoration: none;
@@ -53,7 +53,7 @@ li a#fall02:hover,#interim02:hover,#spring02:hover{
 }
 
 a:visited{
-	color:#48587F;
+	color:#648EB2;
 }
 
 a:hover{
@@ -65,7 +65,7 @@ h1#fall01{
 	padding-left: 42%;
 	padding-top: 2%;
 	align-content: center;
-	color: #48587F;
+	color: #648EB2;
 	text-align: center;
 }
 
