@@ -1,17 +1,28 @@
+@import 'normalize';
+
+
 body{
-	background-color: #DCF8FF;
+	background-color: #DCE6FF;
 }
 
 .header{
 	font-size: 50px;
 	text-align: center;
-	background-color: #DCF8FF;
-	color: #90E9FF;
+	background-color: #DCE6FF;
+	color: #2B437F;
 	padding: 2%;
 	word-spacing: 2rem;
 	font-weight: 2px;
 	text-decoration: underline;
 	padding-bottom: 0.5%;
+}
+
+.home:visited{
+	color:#2B437F;
+}
+
+.home:hover{
+	color:#2B437F;
 }
 
 .flex-bar{
@@ -21,7 +32,7 @@ body{
 	justify-content: space-around;
 	align-content: center;
 	padding: 2%;
-	background: #73BBCC;
+	background: #90B0FF;
 	font-size: 45px;
 }
 
@@ -30,7 +41,7 @@ ul#bar{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #73BBCC;
+	background-color: #90B0FF;
 }
 
 li#bar01{
@@ -39,7 +50,7 @@ li#bar01{
 
 li a#fall02,#interim02,#spring02{
 	display: block;
-	color:#48757F;
+	color:#48587F;
 	text-align: center;
 	padding: 16px;
 	text-decoration: none;
@@ -47,15 +58,15 @@ li a#fall02,#interim02,#spring02{
 }
 
 li a#fall02:hover,#interim02:hover,#spring02:hover{
-	background-color: #90E9FF;
+	background-color: #2B437F;
 }
 
 a:visited{
-	color:#48757F;
+	color:#48587F;
 }
 
 a:hover{
-	color:#6E7C7F;
+	color:#738DCC;
 }
 
 .column {
@@ -63,7 +74,7 @@ a:hover{
 	float: left;
 	width: 30%;
 	padding:;
-	border-right: 1px solid #73BBCC;
+	border-right: 1px solid #90B0FF;
 	text-align: center;
 	align-content: center;
 }
@@ -83,7 +94,7 @@ clear: both;
 h1#fall01{
 	
 	align-content: center;
-	color: #48757F;
+	color: #48587F;
 	text-decoration-style: underline;
 }
 
@@ -92,13 +103,13 @@ ul#ul01{
 	font-size: 25px;
 	padding-left: 12%;
 	list-style-type: arrow;
-	color: #6E7C7F;
+	color: #738DCC;
 }
 
 h1#interim01{
 	
 	align-content: center;
-	color: #48757F;
+	color: #48587F;
 }
 
 ul#ul02{
@@ -106,13 +117,13 @@ ul#ul02{
 	font-size: 25px;
 	padding-left: 12%;
 	list-style-type: arrow;
-	color: #6E7C7F;
+	color: #738DCC;
 }
 
 h1#spring01{
 	
 	align-content: center;
-	color: #48757F;
+	color: #48587F;
 }
 
 ul#ul03{
@@ -120,5 +131,5 @@ ul#ul03{
 	font-size: 25px;
 	padding-left: 12%;
 	list-style-type: arrow;
-	color: #6E7C7F;
+	color: #738DCC;
 }
