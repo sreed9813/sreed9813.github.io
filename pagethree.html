@@ -3,11 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Homepage - Sofia Reed</title>
-	<link rel="stylesheet" href="styleone.css">
+	<link rel="stylesheet" href="stylesheet.css">
 	<meta http-equiv="refresh" content="30">
 	<meta name="author" content="Sofia Reed">
 	<meta name="viewport" content="width=device-width, initial-scale=0.1">
-	<!-- Website Colours: Heading #48587F, Background #DCE6FF, Bright #2B437F, Text #738DCC, Muted #90B0FF -->
+	<!-- Website Colours: Light Blue #A7C7C5, Dark Turquiose #09504F, Navy #172A40, Cream #FFF7DC, Bright Red #D9383A 
+		The ideal font size for reading easily online is 16px and stick to a maximum of 3 typefaces in a maximum of 3 point sizes to keep your design streamlined. ‘three click rule’ GRID BASED LAYOUTS-->
+
 </head>
 
 <body>
@@ -18,25 +20,230 @@
 	</ul> -->
 <div class="header"><a class="home" href="index.html">SOFIA REED</a></div>
 
+
+
+<button class="tablink" onclick="openPage('fall', this, '#A7C7C5')"><a href="pagetwo.html">Fall 2018</a></button>
+<button class="tablink" onclick="openPage('interim', this, '#A7C7C5')" id="defaultOpen">Interim 2018</button>
+<button class="tablink" onclick="openPage('spring', this, '#A7C7C5')"><a href="pagefour.html">Spring 2018</a></button>
+
+
+
+
+<div id="fall" class="tabcontent">
+  <h3>Fall 2017</h3>
+  <p><!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>Shanghai</h3>
+      <p>This image of Shanghai...</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>Samurai</h3>
+      <p>Here's an essay about Samurai</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>Geisha</h3>
+      <p>Here's an essay about Geisha</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>Wong Kar Wai</h3>
+      <p>Here's some stuff about movies</p>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <img src="image" alt="image" style="width:100%">
+  <h3>My Fav Thing</h3>
+  <p>Let's highlight this</p>
+</div>
+
+<!-- END MAIN -->
+</div></p>
+</div>
+
+<div id="interim" class="tabcontent">
+  <h3>Interim 2018</h3>
+  <p><!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>Shanghai</h3>
+      <p>This my impression of Shanghai...</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>Hong Kong</h3>
+      <p>Here's my impression of Hong Kong</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>Japan</h3>
+      <p>Here's what I learned in Japan</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>Free Weekend</h3>
+      <p>Here's some stuff about my free weekend</p>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <img src="image" alt="image" style="width:100%">
+  <h3>Cool Stuff</h3>
+  <p>Let's highlight this</p>
+</div>
+
+<!-- END MAIN -->
+</div></p>
+</div>
+
+<div id="spring" class="tabcontent">
+  <h3>Spring 2018</h3>
+  <p><!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>Topic</h3>
+      <p>This something</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>topic</h3>
+      <p>something</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>topic</h3>
+      <p>something</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="image" alt="image" style="width:100%">
+      <h3>topic</h3>
+      <p>something</p>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <img src="image" alt="image" style="width:100%">
+  <h3>Something</h3>
+  <p>Let's highlight this</p>
+</div>
+
+<!-- END MAIN -->
+</div></p>
+</div>
+
+
+
+<!--Java Script-->
+<script>
+function openPage(pageName, elmnt, color) {
+    // Hide all elements with class="tabcontent" by default */
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Remove the background color of all tablinks/buttons
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+
+    // Show the specific tab content
+    document.getElementById(pageName).style.display = "block";
+
+    // Add the specific color to the button used to open the tab content
+    elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+
+	<!-- 
 	<div class="flex-bar">
-		<div><a href="index.html">Home</a></div>
-		<div><a href="pagetwo.html"> Fall 2017</a></div>
-		<div><a href="pagethree.html">Interim</a></div>
-		<div><a href="pagefour.html">Spring 2018</a></div>
+		<div><a href="pagetwo.html"> Fall 2017</a></div><br>
+		<div><a href="pagethree.html">Interim</a></div><br>
+		<div><a href="pagefour.html">Spring 2018</a></div><br>
+	</div>
+	
+
+<hr>
+
+<hr>
+<div class="row">
+<div class="column">
+<h1 id="fall01">
+	Fall Semester
+</h1>
+
+<ul id="ul01">
+	<li><a href="pagetwo.html">Shanghai Mapping</a></li>
+	<li><a href="pagetwo.html">Samurai</a></li>
+	<li><a href="pagetwo.html">Geisha</a></li>
+</ul> 
+
 	</div>
 
-<hr>
-<hr>
-
+<div class="column">
 <h1 id="interim01">
 	Interim
 </h1>
+
+<ul id="ul02">
+	<li><a href="pagethree.html">Shanghai</a></li>
+	<li><a href="pagethree.html">Hong Kong</a></li>
+	<li><a href="pagethree.html">Tokyo</a></li>
+</ul>
 </div>
-<div class="row">
-<div class="column">Shanghai</div>
-<div class="column">Hong Kong</div>
-<div class="column">Tokyo</div>
+
+<div class="column">
+<h1 id="spring01">
+	Spring Semester
+</h1>
+
+<ul id="ul03">
+	<li><a href="pagefour.html">Topic 1</a></li>
+	<li><a href="pagefour.html">Topic 2</a></li>
+	<li><a href="pagefour.html">Topic 3</a></li>
+</ul>
 </div>
+</div>
+-->
+
 
 </body>
 </html>

@@ -1,30 +1,131 @@
 @import 'normalize';
 
+/*Body background*/
 body{
-	background-color: #DCE6FF;
+	background-color: #FFF7DC;
 }
-
+/*Description for Sofia Link*/
 .header{
 	font-size: 50px;
 	text-align: center;
-	background-color: #DCE6FF;
-	color: #2B437F;
+	color: #172A40;
 	padding: 2%;
-	word-spacing: 2rem;
+	word-spacing: 9px;
 	font-weight: 2px;
 	text-decoration: underline;
-	padding-bottom: 0.5%;
+	padding-bottom: 0.02%;
+}
+/*Colour for Sofia Link*/
+.home:visited{
+	color:#172A40;
+}
+.home{
+	color:#172A40;
+}
+.home:hover{
+	color:#172A40;
+}
+/*Styling the page links*/
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
 }
 
+
+/* Style tab links */
+.tablink {
+  background-color: #A7C7C5;
+  color: #09504F;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  width: %;
+}
+
+.tablink:hover {
+  background-color: #FFF7DC;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #172A40;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#home {background-color: #FFF7DC;}
+#fall {background-color: #FFF7DC;}
+#interim {background-color: #FFF7DC;}
+#spring {background-color: #FFF7DC;}
+
+/*Adding style to portfolio*/
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 23.5%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: #A7C7C5;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+/*
 .flex-bar{
 	display:flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-content: center;
-	padding: 2%;
-	background: #90B0FF;
-	font-size: 45px;
+	padding-bottom: 1%;
+	word-spacing: 2px;
+	font-size: 25px;
 }
 
 ul#bar{
@@ -32,7 +133,7 @@ ul#bar{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #90B0FF;
+	background-color: #172A40;
 }
 
 li#bar01{
@@ -41,52 +142,34 @@ li#bar01{
 
 li a#fall02,#interim02,#spring02{
 	display: block;
-	color:#48587F;
+	color:#09504F;
 	text-align: center;
 	padding: 16px;
 	text-decoration: none;
 	font-size: 30px;
+	word-spacing: 2px;
 }
 
 li a#fall02:hover,#interim02:hover,#spring02:hover{
-	background-color: #2B437F;
+	background-color: #09504F;
 }
 
 a:visited{
-	color:#48587F;
+	color:#09504F;
 }
 
 a:hover{
-	color:#738DCC;
+	color:#172A40;
 }
-
-h1#interim01{
-	padding-left: 42%;
-	padding-top: 2%;
-	align-content: center;
-	color: #48587F;
-}
-
-ul#ul02{
-	align-content: center;
-	font-size: 25px;
-	padding-left: 42%;
-	list-style-type: arrow;
-	color: #738DCC;
-}
-
 
 .column {
 
 	float: left;
-	width: 33%;
+	width: 30%;
 	padding:;
-	border-right: 1px solid #90B0FF;
+	border-right: 1px solid #B2A289;
 	text-align: center;
 	align-content: center;
-	font-size: 30px;
-	text-decoration-style: underline;
-	color:#2B437F;
 }
 
 .row:after{
@@ -100,3 +183,47 @@ clear: both;
 		width: 100%;
 	}
 }
+
+h1#fall01{
+	
+	align-content: center;
+	color: #172A40;
+	text-decoration-style: underline;
+}
+
+ul#ul01{
+	align-content: left;
+	font-size: 25px;
+	padding-left: 12%;
+	list-style-type: arrow;
+	color: #DDEFFF;
+}
+
+h1#interim01{
+	
+	align-content: center;
+	color: #172A40;
+}
+
+ul#ul02{
+	align-content: left;
+	font-size: 25px;
+	padding-left: 12%;
+	list-style-type: arrow;
+	color: #172A40;
+}
+
+h1#spring01{
+	
+	align-content: center;
+	color: #172A40;
+}
+
+ul#ul03{
+	align-content: left;
+	font-size: 25px;
+	padding-left: 12%;
+	list-style-type: arrow;
+	color: #172A40;
+}
+*/
