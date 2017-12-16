@@ -61,10 +61,10 @@ body, html {
   font-family: 'Arima Madurai', cursive;
 }
 
-#home {background-color: #F2F2F2;}
-#fall {background-color: #F2F2F2;}
-#interim {background-color: #F2F2F2;}
-#spring {background-color: #F2F2F2;}
+#home {background-color: #B8D9D0;}
+#fall {background-color: #B8D9D0;}
+#interim {background-color: #B8D9D0;}
+#spring {background-color: #B8D9D0;}
 
 /*Adding style to portfolio*/
 /* Center website */
@@ -104,7 +104,7 @@ h1 {
 
 /* Content */
 .content {
-    background-color: #F2F2F2;
+    background-color: #B8D9D0;
     padding: 10px;
     font-family: 'Boogaloo', cursive;
 }
