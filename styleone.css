@@ -16,6 +16,7 @@ body{
 	text-decoration: underline;
 	padding-bottom: 0.02%;
 	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
 }
 /*Colour for Sofia Link*/
 .home:visited{
@@ -61,10 +62,10 @@ body, html {
   font-family: 'Arima Madurai', cursive;
 }
 
-#home {background-color: #B8D9D0;}
-#fall {background-color: #B8D9D0;}
-#interim {background-color: #B8D9D0;}
-#spring {background-color: #B8D9D0;}
+#home {background-color: #8C8C8C;}
+#fall {background-color: #8C8C8C;}
+#interim {background-color: #8C8C8C;}
+#spring {background-color: #8C8C8C;}
 
 /*Adding style to portfolio*/
 /* Center website */
