@@ -62,10 +62,10 @@ body, html {
   font-family: 'Arima Madurai', cursive;
 }
 
-#home {background-color: #8C8C8C;}
-#fall {background-color: #8C8C8C;}
-#interim {background-color: #8C8C8C;}
-#spring {background-color: #8C8C8C;}
+#home {background-color: #F2F2F2;}
+#fall {background-color: #F2F2F2;}
+#interim {background-color: #F2F2F2;}
+#spring {background-color: #F2F2F2;}
 
 /*Adding style to portfolio*/
 /* Center website */
@@ -79,6 +79,7 @@ h1 {
     word-break: break-all;
     font-family: 'Boogaloo', cursive;
     color: #595758;
+    font-weight: bold;
 }
 
 .row {
@@ -109,18 +110,18 @@ h1 {
     background-color: #B8D9D0;
     padding: 10px;
     font-family: 'Boogaloo', cursive;
-    color: #8C8C8C;
+    color: #595758;
 }
 
-.a:link{
+.title:link{
 	color: #595758;
 }
-.a:visited{
+.title:visited{
 	color: #595758
 }
 
-.a:hover{
-	color:#595758;
+.title:hover{
+	color:#8C8C8C;
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 900px) {
