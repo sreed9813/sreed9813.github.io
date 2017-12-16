@@ -2,13 +2,13 @@
 
 /*Body background*/
 body{
-	background-color: #FFF7DC;
+	background-color: #F2F2F2;
 }
 /*Description for Sofia Link*/
 .header{
 	font-size: 50px;
 	text-align: center;
-	color: #172A40;
+	color: #9BBFB5;
 	padding: 2%;
 	word-spacing: 9px;
 	font-weight: 2px;
@@ -17,13 +17,13 @@ body{
 }
 /*Colour for Sofia Link*/
 .home:visited{
-	color:#172A40;
+	color:#9BBFB5;
 }
 .home{
-	color:#172A40;
+	color:#9BBFB5;
 }
 .home:hover{
-	color:#172A40;
+	color:#B8D9D0;
 }
 /*Styling the page links*/
 body, html {
@@ -35,7 +35,7 @@ body, html {
 
 /* Style tab links */
 .tablink {
-  background-color: #A7C7C5;
+  background-color: #B8D9D0;
   color: #09504F;
   float: left;
   border: none;
@@ -46,7 +46,7 @@ body, html {
 }
 
 .tablink:hover {
-  background-color: #FFF7DC;
+  background-color: #F2F2F2;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
@@ -57,10 +57,10 @@ body, html {
   height: 100%;
 }
 
-#home {background-color: #FFF7DC;}
-#fall {background-color: #FFF7DC;}
-#interim {background-color: #FFF7DC;}
-#spring {background-color: #FFF7DC;}
+#home {background-color: #F2F2F2;}
+#fall {background-color: #F2F2F2;}
+#interim {background-color: #F2F2F2;}
+#spring {background-color: #F2F2F2;}
 
 /*Adding style to portfolio*/
 /* Center website */
@@ -99,7 +99,7 @@ h1 {
 
 /* Content */
 .content {
-    background-color: #A7C7C5;
+    background-color: #F2F2F2;
     padding: 10px;
 }
 
