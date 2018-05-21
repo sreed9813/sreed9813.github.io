@@ -48,6 +48,7 @@ body, html {
   font-size: 17px;
   width: %;
   font-family: 'Arima Madurai', cursive;
+  text-align: center;
 }
 
 .tablink:hover {
