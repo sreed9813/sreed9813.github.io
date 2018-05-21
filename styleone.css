@@ -58,15 +58,16 @@ body, html {
 .tabcontent {
   color: #595758;
   display: none;
-  padding: 100px 20px;
+  padding: 10px 20px;
   height: 100%;
   font-family: 'Arima Madurai', cursive;
+  text-align: center;
 }
 
-#home {background-color: #F2F2F2;}
-#fall {background-color: #F2F2F2;}
-#interim {background-color: #F2F2F2;}
-#spring {background-color: #F2F2F2;}
+#home {background-color: #FFFFFF;}
+#fall {background-color: #FFFFFF;}
+#interim {background-color: #FFFFFF;}
+#spring {background-color: #FFFFFF;}
 
 /*Adding style to portfolio*/
 /* Center website */
