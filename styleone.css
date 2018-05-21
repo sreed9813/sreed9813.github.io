@@ -41,7 +41,7 @@ body, html {
 .tablink {
   background-color: #B8D9D0;
   color: #09504F;
-  float: left;
+  float: center;
   border: none;
   outline: none;
   cursor: pointer;
@@ -50,6 +50,7 @@ body, html {
   font-family: 'Arima Madurai', cursive;
   text-align: center;
   padding: 2%;
+  padding-left: 10%;
 }
 
 .tablink:hover {
@@ -60,7 +61,7 @@ body, html {
 .tabcontent {
   color: #595758;
   display: none;
-  padding: 20px;
+  padding-left: 20px;
   height: 100%;
   font-family: 'Arima Madurai', cursive;
   text-align: center;
